@@ -14,4 +14,16 @@ public class Product {
 
     @Column(name = "amount")
     private int amount;
+
+    public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
 }
